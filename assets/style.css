@@ -1,0 +1,33 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    animation-name: title;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes title {
+
+    from {
+        color: red;
+    }
+
+    49% {
+        color: red;
+    }
+
+    50% {
+        color: blue;
+    }
+
+    to {
+        color: blue;
+    }
+
+}
